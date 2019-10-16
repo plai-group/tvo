@@ -15,12 +15,6 @@ BINARIZED_MNIST_DIR = \
     '/Users/tuananhle/Documents/research/datasets/binarized-mnist'
 BINARIZED_MNIST_DIR_CC = \
     '/home/tuananh/projects/def-fwood/tuananh/datasets/binarized-mnist'
-OMNIGLOT_URL = \
-    'https://github.com/yburda/iwae/raw/master/datasets/OMNIGLOT/chardata.mat'
-OMNIGLOT_PATH = \
-    '/Users/tuananhle/Documents/research/datasets/omniglot/omniglot.mat'
-OMNIGLOT_PATH_CC = \
-    '/home/tuananh/projects/def-fwood/tuananh/datasets/omniglot/omniglot.mat'
 
 
 def download_binarized_mnist(dir=BINARIZED_MNIST_DIR,
