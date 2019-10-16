@@ -1,4 +1,4 @@
-To train with the TVO objective, modify the data paths in [`data.py`](https://github.com/vmasrani/tvo/blob/master/discrete_vae/data.py) and run
+To train with the TVO objective, modify the data paths in [`data.py`](https://github.com/vmasrani/tvo/blob/master/discrete_vae/data.py#L14-L17) and run
 ```
 python run.py --train-mode thermo
 ```
