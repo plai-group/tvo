@@ -1,0 +1,8 @@
+*.ipynb
+save/
+jobs_out_err/
+cp_from_cc.sh
+*.txt
+plots/
+__pycache__/
+.vscode/
