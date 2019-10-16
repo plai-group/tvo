@@ -181,8 +181,9 @@ def get_save_dir(root='./save/'):
 
 
 class OnlineMeanStd():
-    """Follows
-    https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Welford's_online_algorithm"""
+    """Follows online algorithm from
+    https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Welford
+    """
 
     def __init__(self):
         self.count = 0

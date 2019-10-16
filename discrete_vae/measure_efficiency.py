@@ -54,7 +54,7 @@ def main():
             torch.cuda.reset_max_memory_allocated(device=device)
             start = time.time()
             train.train_iwae('vimco', generative_model, inference_network,
-                             data_loader, num_iterations, num_particles, 
+                             data_loader, num_iterations, num_particles,
                              optim_kwargs)
             end = time.time()
             memory_vimco[i, k] = torch.cuda.max_memory_allocated(device=device)
@@ -67,7 +67,7 @@ def main():
             torch.cuda.reset_max_memory_allocated(device=device)
             start = time.time()
             train.train_iwae('reinforce', generative_model, inference_network,
-                             data_loader, num_iterations, num_particles, 
+                             data_loader, num_iterations, num_particles,
                              optim_kwargs)
             end = time.time()
             memory_reinforce[i, k] = torch.cuda.max_memory_allocated(
