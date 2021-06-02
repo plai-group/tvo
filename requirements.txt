@@ -11,5 +11,5 @@ torch==1.1.0
 torchvision==0.3.0
 h5py==2.9.0
 pymongo==3.8.0
-urllib3==1.24.3
+urllib3==1.26.5
 ipyparallel==6.2.4
